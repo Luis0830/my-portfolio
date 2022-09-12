@@ -28,7 +28,7 @@ function About() {
                    <h2><TiHtml5 className='icon' /><SiCsswizardry className='icon' /><SiJavascript className='icon' /><FaPython className='icon' /><FaGitSquare className='icon' /><FaNpm className='icon' /><FaNodeJs className='icon' /><FaReact className='icon' /><SiTailwindcss className='icon' /><FaBootstrap className='icon' /></h2>
             </article>
            </div>
-           <p>From an early age I am passionate about technology, I love to explore and create, I am a lifelong learner. I always looking for ways to improve myself.</p>
+           <p>From an early age I am passionate about technology, I love to explore and create, I am a lifelong learner. I'm always looking for ways to improve myself.</p>
            <p>If I had to describe myself in one word, it would be inventive. I'll take a problem, break it down into smaller parts, and find a solution. Creativity has helped me overcome difficulties and obstacles.</p>
            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
