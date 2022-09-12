@@ -1,0 +1,151 @@
+
+#about{
+    padding-top: 700px;
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    
+}
+
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.me__img{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(15deg);
+    transition: var(--transition);
+    height: 99%;
+}
+
+.me__img:hover{
+    transform: rotate(0);
+}
+
+.about__cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+.about__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 0.1;
+    text-align: center;
+    justify-content: space-between;
+    transition: var(--transition);
+}
+
+.about__card:hover{
+     background: transparent blur(8px);
+     border-color: var(--color-primary-variant);
+     cursor: default;
+}
+
+.about__icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+
+}
+.about__card h5{
+    font-size: 0.95rem;
+    color: var(--color-light);
+}
+.icon{
+    margin: 0 0.2rem 0 0.2rem;
+    
+}
+.icon:hover{
+    transform: scale(1.5);
+    transition: all 0.3s linear;
+    color: var(--color-primary);
+}
+.titles{
+    padding-left: 50%;
+    
+}
+.titles h2{
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    
+}
+
+
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-white);
+}
+
+/* Media Queries for Medium device)*/
+@media screen and (max-width: 1024px) { 
+    #about{
+        padding-top: 100px;
+    }
+    
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0 ;
+    }
+.about__me{
+    width: 50%;
+    margin: 2rem auto 4rem;
+}
+.titles{
+    text-align: center;
+    padding: 0;
+}
+.about__content{
+    text-align: center;
+}
+.about__content p{
+    margin: 1rem 0 1.5rem;
+    
+}
+   }
+   /* Media Queries for small device)*/
+   @media screen and (max-width: 600px) { 
+   
+    #about{
+        padding-top: 0px;
+    }
+    .about__content{
+        justify-items: center;
+        text-align: center;
+        margin-top: -7rem;
+    }
+    .about__content p{
+        margin: 1.5rem 0;
+    }
+   
+    .about__me{
+    width: 65%;
+    margin: 0 auto 3rem;
+    margin-bottom: 2;
+    
+   }
+   
+
+   .titles{
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+.titles h2{
+    margin-bottom: 0;
+    color: var(--color-primary);
+    
+}
+
+}
