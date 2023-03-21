@@ -47,8 +47,24 @@ function Exp() {
             <h4>Git</h4>
           </article></div>
           <div><article className='experience_details'>
-            <BsPatchCheckFill className='icon2'/>
-            <h4>Python</h4>
+            <BsPatchCheckFill  className='icon2'/>
+            <h4>Agile</h4>
+          </article></div>
+          <div><article className='experience_details'>
+            <BsPatchCheckFill  className='icon2'/>
+            <h4>Scrum</h4>
+          </article></div>
+          <div><article className='experience_details'>
+            <BsPatchCheckFill  className='icon2'/>
+            <h4>C#</h4>
+          </article></div>
+          <div><article className='experience_details'>
+            <BsPatchCheckFill  className='icon2'/>
+            <h4>SQL</h4>
+          </article></div>
+          <div><article className='experience_details'>
+            <BsPatchCheckFill  className='icon2'/>
+            <h4>.Net</h4>
           </article></div>
           
           

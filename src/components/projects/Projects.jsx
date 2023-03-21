@@ -3,6 +3,7 @@ import './projects.css'
 import Proj1 from '../../images/project1.png'
 import Proj2 from '../../images/project2.png'
 import Proj3 from '../../images/project3.PNG'
+import Proj4 from '../../images/reydemo.PNG'
 
 function Projects() {
   return (
@@ -45,6 +46,17 @@ function Projects() {
              <div className='btn_btn'>
           <a href="https://github.com/Luis0830/speed-typing-text" className='btn' target="_blank">Github</a>
              <a href='https://luis0830.github.io/speed-typing-text/' className="btn btn-primary" target="_blank">Live Demo</a>
+          </div>
+          </article>
+          <article className='portfolio__item'>
+             <div className="portfolio__item-image">
+              <img src={Proj4} alt="Travel Advisor" />
+             </div>
+             <h3>Real State Website</h3>
+             <p>Used React, Tailwind, Sanity.io, used advance custom Hooks, advance SEO configuration</p>
+             <div className='btn_btn'>
+          <a href="https://github.com/Luis0830/real-state/" className='btn' target="_blank">Github</a>
+             <a href='https://www.reyconfer.com/' className="btn btn-primary" target="_blank">Live Web</a>
           </div>
           </article>
           
